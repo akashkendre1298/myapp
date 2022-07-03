@@ -1,0 +1,114 @@
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+.container {
+  margin-top: 15%;
+  display: flex;
+  justify-content: center;
+
+}
+
+h1 {
+  font-weight: bold;
+  margin-top: 15%;
+  font-size: 36px;
+  line-height: 48px;
+  font-weight: 600;
+}
+
+button {
+  background-color: rgb(220, 60, 130);
+  color: white;
+
+}
+
+.image-background {
+  background-image: url("https://supplier.meesho.com/images/background-p-1080.png");
+}
+
+.col1 {
+  background-color: pink;
+  border: radius left 10px;
+  border-top-left-radius: 100% 100%;
+
+}
+
+p {
+  font-size: 15px;
+  line-height: 24px;
+  width: 67%;
+}
+
+.btn {
+  height: 30px;
+  border: none;
+  margin-left: 20px;
+  border-bottom-right-radius: 5px;
+  border-top-right-radius: 5px;
+}
+
+.commission {
+
+  margin-left: 0%;
+}
+
+.card {
+  border-style: solid;
+  border-width: thin;
+  border-color: lightgrey;
+  justify-content: space-around;
+}
+
+.main-division-of-section-first-flex {
+  display: flex
+}
+
+.Flex-boxes-in-three-steps {
+  display: flex;
+  justify-content: space-between
+}
+
+.three-steps-pricinh-defination {
+  display: flex;
+  justify-content: center;
+  text-align: center; margin-top: 10px;
+}
+
+.column2 {
+  width: 30%;
+}
+
+.container2 {
+  margin-top: 15%;
+  /* padding-left: 100px; */
+  display: flex;
+  justify-content: center
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+
+  to {
+    transform: rotate(360deg);
+  }
+}
